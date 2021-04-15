@@ -9,3 +9,56 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 
 ### Contents
 
+#### Plugins
+
+##### Panelization
++ [KiKit](https://github.com/yaqwsx/KiKit): Library and CLI tool to panelize boards, export manufacturing data and build board presentation pages.
++ [panelize-plugin](https://github.com/msvisser/panelize-plugin): Automatic KiCad panelization plugin
+
+
+##### Manufacturing BOM and Gerbers
++ [KiCost](https://github.com/xesscorp/KiCost): Build cost spreadsheet for a KiCad project.
++ [KiBoM](https://github.com/SchrodingersGat/KiBoM): Configurable BoM generation tool for KiCad EDA
++ [JLCKicadTools](https://github.com/matthewlai/JLCKicadTools): Tool for using JLCPCB assembly service with KiCad
++ [KiZip](https://github.com/gregdavill/KiZip): KiCad Plugin to package gerbers ready for ordering
++ [KiCad JLCPCB BOM Plugin](https://github.com/wokwi/kicad-jlcpcb-bom-plugin): Export a JLCPCB Compatible BOM directly from your KiCad schematic
++ [kicad-gerberzipper](https://github.com/g200kg/kicad-gerberzipper): KiCad Plot and Zip
++ [kicad-bom-seeedstudio](https://github.com/imrehg/kicad-bom-seeedstudio): KiCad BOM plugin to follow Seeed Studio's Fusion PCBA template
++ [gerber_to_order](https://github.com/asukiaaa/gerber_to_order): A KiCad plugin to create zip compressed gerber files to order for Elecrow, FusionPCB, PCBWay or JLCPCB.
+
+##### PCB Design
++ [Svg2Shenzhen](https://github.com/badgeek/svg2shenzhen): Inkscape extension for exporting drawings into a KiCad PCB.
++ [PcbDraw](https://github.com/yaqwsx/PcbDraw): Convert your KiCAD boards into nice looking 2D drawings suitable for pinout diagrams
++ [svg2mod](https://github.com/mtl/svg2mod): Convert Inkscape SVG drawings to KiCad footprint modules
++ [KiBuzzard](https://github.com/gregdavill/KiBuzzard): Create labels in various fonts, and with inverted backgrounds
++ [Stretch](https://github.com/JarrettR/Stretch): Allow your PCBs to stretch!
++ [Laser Stencil Plugin](https://github.com/ma-ha/kicad-laser-stencil-plugin): KiCAD Pcbnew plugin to generat laser cutter G-Code files for solder paste stencils
++ [Stimulu KiCad Plugins](https://github.com/stimulu/stimulu-kicad-plugins): Collection of KiCad plugins to reproduce or use Stimulu board files.
+
+
+##### Presentations
++ [InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom): Generate convenient BOM listing with ability to visually correlate and easily search for components and their placements on the pcb
+
+##### Coverters
+
++ [Altium2Kicad](https://github.com/thesourcerer8/altium2kicad): Altium to KiCad converter for PCB and schematics
++ [Eagle to KiCad](https://github.com/lachlanA/eagle-to-kicad): Eagle SCH/LIB to KiCad SCH/LIB ULP conversion script
+
+##### GUI
++ [KiCad Color Schemes](https://github.com/pointhi/kicad-color-schemes)
+
+#### Symbols
+
++ [Official KiCad Symbols](https://github.com/KiCad/kicad-symbols)
+
+#### Footprints
+
++ [Official KiCad Footprints](https://github.com/KiCad/kicad-footprints)
++ [KiCad Footprint Generator](https://gitlab.com/kicad/libraries/kicad-footprint-generator): Generate custom KiCAD footprints using python
+
+
+#### Tutorials
+
++ [Keyboard PCB guide](https://github.com/ruiqimao/keyboard-pcb-guide): Guide on how to design keyboard PCBs with KiCad
++ [Hawk](https://github.com/MalphasWats/hawk): Tutorial for making an ARM dev board in KiCAD
+
