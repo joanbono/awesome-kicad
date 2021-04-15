@@ -4,7 +4,7 @@
 
 ### Contributing
 
-Please take a quick gander at the [contribution guidelines](https://github.com/joanbono/awesome-kicad/blob/master/CONTRIBUTING.md) first. Thanks to all [contributors](https://github.com/joanbono/awesome-kicad/graphs/contributors); you rock!
+Please take a quick gander at the [contribution guidelines](https://github.com/joanbono/awesome-kicad/blob/main/CONTRIBUTING.md) first. Thanks to all [contributors](https://github.com/joanbono/awesome-kicad/graphs/contributors); you rock!
 
 
 ### Contents
