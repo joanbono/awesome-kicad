@@ -25,6 +25,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [kicad-gerberzipper](https://github.com/g200kg/kicad-gerberzipper): KiCad Plot and Zip
 + [kicad-bom-seeedstudio](https://github.com/imrehg/kicad-bom-seeedstudio): KiCad BOM plugin to follow Seeed Studio's Fusion PCBA template
 + [gerber_to_order](https://github.com/asukiaaa/gerber_to_order): A KiCad plugin to create zip compressed gerber files to order for Elecrow, FusionPCB, PCBWay or JLCPCB.
++ [KiCad Better BOM](https://github.com/AlexanderNickolsky/KiCad-Better-BOM): Yet another pretty BOM generator for KiCad.
 
 ##### PCB Design
 + [Svg2Shenzhen](https://github.com/badgeek/svg2shenzhen): Inkscape extension for exporting drawings into a KiCad PCB.
