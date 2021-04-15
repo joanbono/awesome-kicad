@@ -1,4 +1,4 @@
-# <img align="right" src="img/awesome-kicad.png" alt="awesome-go" title="awesome-kicad" /> Awesome Kicad
+# <img align="right" width="200" src="img/awesome-kicad.png" alt="awesome-go" title="awesome-kicad" /> Awesome Kicad
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
@@ -8,3 +8,4 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 
 
 ### Contents
+
