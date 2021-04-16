@@ -39,6 +39,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 
 ##### Presentations
 + [InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom): Generate convenient BOM listing with ability to visually correlate and easily search for components and their placements on the pcb
++ [kdiff](https://github.com/leoheck/kdiff): A tool for reviewing Kicad's projects visually including schematics and layout using Kicad-Diff and Plotgitsch
 
 ##### Coverters
 
