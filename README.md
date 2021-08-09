@@ -26,6 +26,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [kicad-bom-seeedstudio](https://github.com/imrehg/kicad-bom-seeedstudio): KiCad BOM plugin to follow Seeed Studio's Fusion PCBA template
 + [gerber_to_order](https://github.com/asukiaaa/gerber_to_order): A KiCad plugin to create zip compressed gerber files to order for Elecrow, FusionPCB, PCBWay or JLCPCB.
 + [KiCad Better BOM](https://github.com/AlexanderNickolsky/KiCad-Better-BOM): Yet another pretty BOM generator for KiCad.
++ [Kicad JLCPCB Tools](https://github.com/Bouni/kicad-jlcpcb-tools): Plugin to generate all files necessary for JLCPCB board fabrication and assembly
 
 ##### PCB Design
 + [Svg2Shenzhen](https://github.com/badgeek/svg2shenzhen): Inkscape extension for exporting drawings into a KiCad PCB.
@@ -35,6 +36,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [Stretch](https://github.com/JarrettR/Stretch): Allow your PCBs to stretch!
 + [Laser Stencil Plugin](https://github.com/ma-ha/kicad-laser-stencil-plugin): KiCAD Pcbnew plugin to generat laser cutter G-Code files for solder paste stencils
 + [Stimulu KiCad Plugins](https://github.com/stimulu/stimulu-kicad-plugins): Collection of KiCad plugins to reproduce or use Stimulu board files.
++ [KiCad Templates](https://github.com/sethhillbrand/kicad_templates): Provides a number of additional Board and production house templates for KiCad EDA.
 
 
 ##### Presentations
