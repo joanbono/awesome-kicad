@@ -47,7 +47,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [KiCad-Diff](https://github.com/Gasman2014/KiCad-Diff): Plugin to perform image diffs between pcbnew layout revisions
 + [kdiff](https://github.com/leoheck/kdiff): A tool for reviewing Kicad's projects visually including schematics and layout using Kicad-Diff and Plotgitsch
 
-##### Coverters
+##### Converters
 
 + [Altium2Kicad](https://github.com/thesourcerer8/altium2kicad): Altium to KiCad converter for PCB and schematics
 + [Eagle to KiCad](https://github.com/lachlanA/eagle-to-kicad): Eagle SCH/LIB to KiCad SCH/LIB ULP conversion script
