@@ -27,6 +27,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [gerber_to_order](https://github.com/asukiaaa/gerber_to_order): A KiCad plugin to create zip compressed gerber files to order for Elecrow, FusionPCB, PCBWay or JLCPCB.
 + [KiCad Better BOM](https://github.com/AlexanderNickolsky/KiCad-Better-BOM): Yet another pretty BOM generator for KiCad.
 + [Kicad JLCPCB Tools](https://github.com/Bouni/kicad-jlcpcb-tools): Plugin to generate all files necessary for JLCPCB board fabrication and assembly
++ [Copper Thief Plugin](https://github.com/mrussell42/copper_thief): [Copper Thieving](https://electronics.stackexchange.com/questions/85633/what-is-copper-thieving-and-why-use-it) Plugin.
 
 ##### PCB Design
 + [Svg2Shenzhen](https://github.com/badgeek/svg2shenzhen): Inkscape extension for exporting drawings into a KiCad PCB.
