@@ -41,6 +41,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [FreeRouting](https://github.com/freerouting/freerouting): Advanced PCB auto-router
 + [uConfig](https://github.com/Robotips/uConfig): Datasheet pinout extractor from PDF and library Stylizer for Kicad.
 + [KiBot](https://github.com/INTI-CMNB/KiBot): KiCad automation utility.
++ [KiCad RF Tools](https://github.com/easyw/RF-tools-KiCAD): Footprints, wizards and round tracks, mask expander, via fencing
 
 ##### Presentations
 + [InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom): Generate convenient BOM listing with ability to visually correlate and easily search for components and their placements on the pcb
