@@ -38,7 +38,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [Laser Stencil Plugin](https://github.com/ma-ha/kicad-laser-stencil-plugin): KiCAD Pcbnew plugin to generat laser cutter G-Code files for solder paste stencils
 + [Stimulu KiCad Plugins](https://github.com/stimulu/stimulu-kicad-plugins): Collection of KiCad plugins to reproduce or use Stimulu board files.
 + [KiCad Templates](https://github.com/sethhillbrand/kicad_templates): Provides a number of additional Board and production house templates for KiCad EDA.
-
++ [KiCad RF Tools](https://github.com/easyw/RF-tools-KiCAD): Footprints, wizards and round tracks, mask expander, via fencing
 
 ##### Presentations
 + [InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom): Generate convenient BOM listing with ability to visually correlate and easily search for components and their placements on the pcb
