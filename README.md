@@ -74,3 +74,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [Keyboard PCB guide](https://github.com/ruiqimao/keyboard-pcb-guide): Guide on how to design keyboard PCBs with KiCad
 + [Hawk](https://github.com/MalphasWats/hawk): Tutorial for making an ARM dev board in KiCAD
 
+#### 3rd-Party Component Integration
+
+- [Kandle](https://github.com/HarveyBates/kicad-component-handler): CLI to automatically import 3rd-party components (symbols, footprints and 3D-models) into KiCad.
