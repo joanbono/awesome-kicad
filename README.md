@@ -61,13 +61,16 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 
 #### Symbols
 
-+ [Official KiCad Symbols](https://github.com/KiCad/kicad-symbols)
++ [Official KiCad Symbols](https://gitlab.com/kicad/libraries/kicad-symbols)
 
 #### Footprints
 
-+ [Official KiCad Footprints](https://github.com/KiCad/kicad-footprints)
++ [Official KiCad Footprints](https://gitlab.com/kicad/libraries/kicad-footprints)
 + [KiCad Footprint Generator](https://gitlab.com/kicad/libraries/kicad-footprint-generator): Generate custom KiCAD footprints using python
 
+#### 3D Models
+
++ [Official KiCad 3D Models](https://gitlab.com/kicad/libraries/kicad-packages3D)
 
 #### Tutorials
 
