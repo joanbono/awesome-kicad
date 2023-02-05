@@ -80,3 +80,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 #### 3rd-Party Component Integration
 
 - [Kandle](https://github.com/HarveyBates/kicad-component-handler): CLI to automatically import 3rd-party components (symbols, footprints and 3D-models) into KiCad.
+
+#### Verilog / VHDL Tools
+
+- [KiCadVerilog](https://github.com/galacticstudios/KiCadVerilog): Generate Verilog code from a KiCad netlist.
