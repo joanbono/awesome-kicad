@@ -54,7 +54,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [kdiff](https://github.com/leoheck/kdiff): A tool for reviewing Kicad's projects visually including schematics and layout using Kicad-Diff and Plotgitsch
 + [gerber2blend](https://github.com/antmicro/gerber2blend): open-source utility to generate 3D models of Printed Circuit Boards (PCBs) in Blender (`.blend` format)
 + [gerber2ems](https://github.com/antmicro/gerber2ems): Takes PCB production files as input (Gerber, drill files, stackup information) and simulates trace SI performance using openEMS
-
++ [kicanvas](https://github.com/theacodes/kicanvas): KiCanvas is an interactive, browser-based viewer for KiCAD schematics and boards
 
 ##### Converters
 
