@@ -47,10 +47,14 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 ##### Presentations
 + [InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom): Generate convenient BOM listing with ability to visually correlate and easily search for components and their placements on the pcb
 
+
 ##### Reviewing
 + [plotkicadsch](https://github.com/jnavila/plotkicadsch): Export Kicad Sch files to structured picture files
 + [KiCad-Diff](https://github.com/Gasman2014/KiCad-Diff): Plugin to perform image diffs between pcbnew layout revisions
 + [kdiff](https://github.com/leoheck/kdiff): A tool for reviewing Kicad's projects visually including schematics and layout using Kicad-Diff and Plotgitsch
++ [gerber2blend](https://github.com/antmicro/gerber2blend): open-source utility to generate 3D models of Printed Circuit Boards (PCBs) in Blender (`.blend` format)
++ [gerber2ems](https://github.com/antmicro/gerber2ems): Takes PCB production files as input (Gerber, drill files, stackup information) and simulates trace SI performance using openEMS
+
 
 ##### Converters
 
