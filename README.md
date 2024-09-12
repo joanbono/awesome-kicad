@@ -14,6 +14,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 ##### Panelization
 + [KiKit](https://github.com/yaqwsx/KiKit): Library and CLI tool to panelize boards, export manufacturing data and build board presentation pages.
 + [panelize-plugin](https://github.com/msvisser/panelize-plugin): Automatic KiCad panelization plugin
++ [ReplicateLayout](https://github.com/MitjaNemec/ReplicateLayout): Extension to replicate the PCB layout of one hierarchical sheet to other sheets based on hierarchical sheets in Eeschema.
 
 
 ##### Manufacturing BOM and Gerbers
