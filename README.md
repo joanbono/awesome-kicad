@@ -68,6 +68,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 #### Symbols
 
 + [Official KiCad Symbols](https://gitlab.com/kicad/libraries/kicad-symbols)
++ [Arduino Kicad Library](https://github.com/Alarm-Siren/arduino-kicad-library): KiCad Symbol & Footprint Library for Arduino Modules
 
 #### Footprints
 
