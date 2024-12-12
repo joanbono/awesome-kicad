@@ -65,6 +65,9 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 ##### GUI
 + [KiCad Color Schemes](https://github.com/pointhi/kicad-color-schemes)
 
+##### Other
++ [kicad-wakatime](https://github.com/hackclub/kicad-wakatime): WakaTime plugin for KiCAD 8.99
+
 #### Symbols
 
 + [Official KiCad Symbols](https://gitlab.com/kicad/libraries/kicad-symbols)
