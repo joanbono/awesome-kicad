@@ -29,6 +29,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [KiCad Better BOM](https://github.com/AlexanderNickolsky/KiCad-Better-BOM): Yet another pretty BOM generator for KiCad.
 + [Kicad JLCPCB Tools](https://github.com/Bouni/kicad-jlcpcb-tools): Plugin to generate all files necessary for JLCPCB board fabrication and assembly
 + [Copper Thief Plugin](https://github.com/mrussell42/copper_thief): [Copper Thieving](https://electronics.stackexchange.com/questions/85633/what-is-copper-thieving-and-why-use-it) Plugin.
++ [BOM2Md](https://github.com/AlexSartori/kicad-bom2md): Plugin for KiCAD to generate a Bill of Materials formatted as a Markdown table.
+
 
 ##### PCB Design
 + [Svg2Shenzhen](https://github.com/badgeek/svg2shenzhen): Inkscape extension for exporting drawings into a KiCad PCB.
@@ -46,6 +48,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [Import-LIB-KiCad-Plugin](https://github.com/Steffen-W/Import-LIB-KiCad-Plugin): Import KiCad component libraries imported from Ultralibrarian and SnapEDA zipfiles.
 + [typeCAD](https://github.com/typecad/typecad): Programmatically create hardware designs with TypeScript. Create/reuse/import version-controlled packages between projects. 
 
+
 ##### Presentations
 + [InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom): Generate convenient BOM listing with ability to visually correlate and easily search for components and their placements on the pcb
 
@@ -59,40 +62,41 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [kicanvas](https://github.com/theacodes/kicanvas): KiCanvas is an interactive, browser-based viewer for KiCAD schematics and boards
 + [KiCadStepUp](https://github.com/easyw/kicadStepUpMod/): KiCad StepUp is a FreeCAD Workbench to help in mechanical collaboration between KiCad EDA and FreeCAD.
 
-##### Converters
 
+##### Converters
 + [Altium2Kicad](https://github.com/thesourcerer8/altium2kicad): Altium to KiCad converter for PCB and schematics
 + [Eagle to KiCad](https://github.com/lachlanA/eagle-to-kicad): Eagle SCH/LIB to KiCad SCH/LIB ULP conversion script
+
 
 ##### GUI
 + [KiCad Color Schemes](https://github.com/pointhi/kicad-color-schemes)
 
+
 ##### Other
 + [kicad-wakatime](https://github.com/hackclub/kicad-wakatime): WakaTime plugin for KiCAD 8.99
 
-#### Symbols
 
+#### Symbols
 + [Official KiCad Symbols](https://gitlab.com/kicad/libraries/kicad-symbols)
 + [Arduino Kicad Library](https://github.com/Alarm-Siren/arduino-kicad-library): KiCad Symbol & Footprint Library for Arduino Modules
 
 #### Footprints
-
 + [Official KiCad Footprints](https://gitlab.com/kicad/libraries/kicad-footprints)
 + [KiCad Footprint Generator](https://gitlab.com/kicad/libraries/kicad-footprint-generator): Generate custom KiCAD footprints using python
 
-#### 3D Models
 
+#### 3D Models
 + [Official KiCad 3D Models](https://gitlab.com/kicad/libraries/kicad-packages3D)
 
-#### Tutorials
 
+#### Tutorials
 + [Keyboard PCB guide](https://github.com/ruiqimao/keyboard-pcb-guide): Guide on how to design keyboard PCBs with KiCad
 + [Hawk](https://github.com/MalphasWats/hawk): Tutorial for making an ARM dev board in KiCAD
 
-#### 3rd-Party Component Integration
 
+#### 3rd-Party Component Integration
 - [Kandle](https://github.com/HarveyBates/kicad-component-handler): CLI to automatically import 3rd-party components (symbols, footprints and 3D-models) into KiCad.
 
-#### Verilog / VHDL Tools
 
+#### Verilog / VHDL Tools
 - [KiCadVerilog](https://github.com/galacticstudios/KiCadVerilog): Generate Verilog code from a KiCad netlist.
