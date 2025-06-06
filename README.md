@@ -48,6 +48,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [KiCad RF Tools](https://github.com/easyw/RF-tools-KiCAD): Footprints, wizards and round tracks, mask expander, via fencing
 + [Import-LIB-KiCad-Plugin](https://github.com/Steffen-W/Import-LIB-KiCad-Plugin): Import KiCad component libraries imported from Ultralibrarian and SnapEDA zipfiles.
 + [typeCAD](https://github.com/typecad/typecad): Programmatically create hardware designs with TypeScript. Create/reuse/import version-controlled packages between projects. 
++ [SKiDL](https://github.com/devbisme/skidl): A module that extends Python with the ability to design electronic circuits.
 
 
 ##### Presentations
