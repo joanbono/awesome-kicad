@@ -9,6 +9,11 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 
 ### Contents
 
+#### API
+
++ [`kicad-python`](https://gitlab.com/kicad/code/kicad-python): Official Python bindings for the KiCad IPC API.
++ [`kicad-rs`](https://gitlab.com/kicad/code/kicad-rs): Official Rust bindings for the KiCad IPC API.
+
 #### Plugins
 
 ##### Panelization
