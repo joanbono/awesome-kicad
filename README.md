@@ -23,6 +23,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 
 
 ##### Manufacturing BOM and Gerbers
++ [KiABOM](https://github.com/Mage-Control-Systems-Ltd/KiABOM): Simple BOM generation with online supplier data.
 + [KiCost](https://github.com/xesscorp/KiCost): Build cost spreadsheet for a KiCad project.
 + [KiBoM](https://github.com/SchrodingersGat/KiBoM): Configurable BoM generation tool for KiCad EDA
 + [JLCKicadTools](https://github.com/matthewlai/JLCKicadTools): Tool for using JLCPCB assembly service with KiCad
