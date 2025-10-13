@@ -38,7 +38,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 
 
 ##### PCB Design
-+ [NCCM](https://github.com/Mage-Control-Systems-Ltd/KiABOM): Net Class Clearance Matrix (NCCM) to generate custom rules for clearances between net classes through a matrix GUI.
++ [NCCM](https://github.com/Mage-Control-Systems-Ltd/NCCM): Net Class Clearance Matrix (NCCM) to generate custom rules for clearances between net classes through a matrix GUI.
 + [Svg2Shenzhen](https://github.com/badgeek/svg2shenzhen): (Discontinued) Inkscape extension for exporting drawings into a KiCad PCB.
 + [Gingerbread](https://github.com/wntrblm/Gingerbread): A tool for converting vector artwork to KiCAD PCB files that lives in your browser.
 + [PcbDraw](https://github.com/yaqwsx/PcbDraw): Convert your KiCAD boards into nice looking 2D drawings suitable for pinout diagrams
