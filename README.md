@@ -57,6 +57,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [typeCAD](https://github.com/typecad/typecad): Programmatically create hardware designs with TypeScript. Create/reuse/import version-controlled packages between projects. 
 + [SKiDL](https://github.com/devbisme/skidl): A module that extends Python with the ability to design electronic circuits.
 + [Circuitron](https://github.com/Shaurya-Sethi/circuitron): Agentic PCB Design Accelerator — Generate, plan, and layout circuits from natural language prompts.
++ [Rectangulator](https://github.com/msolomentsev/rectangulator): A simple plug-in that automatically turns zones into perfect rectangles.
+
 
 ##### Presentations
 + [InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom): Generate convenient BOM listing with ability to visually correlate and easily search for components and their placements on the pcb
