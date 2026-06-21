@@ -36,6 +36,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [Kicad JLCPCB Tools](https://github.com/Bouni/kicad-jlcpcb-tools): Plugin to generate all files necessary for JLCPCB board fabrication and assembly
 + [Copper Thief Plugin](https://github.com/mrussell42/copper_thief): [Copper Thieving](https://electronics.stackexchange.com/questions/85633/what-is-copper-thieving-and-why-use-it) Plugin.
 + [BOM2Md](https://github.com/AlexSartori/kicad-bom2md): Plugin for KiCAD to generate a Bill of Materials formatted as a Markdown table.
++ [Salitronic Gerber Analyzer](https://salitronic.com/gerber_analyzer): Free in-browser tool to view and check the Gerbers KiCad exports (also reads ODB++ and IPC-2581), with DRC, layer diff, pick-and-place, and thermal, EMI and impedance analysis.
 
 
 ##### PCB Design
