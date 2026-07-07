@@ -59,6 +59,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [SKiDL](https://github.com/devbisme/skidl): A module that extends Python with the ability to design electronic circuits.
 + [Circuitron](https://github.com/Shaurya-Sethi/circuitron): Agentic PCB Design Accelerator — Generate, plan, and layout circuits from natural language prompts.
 + [Rectangulator](https://github.com/msolomentsev/rectangulator): A simple plug-in that automatically turns zones into perfect rectangles.
++ [Img2Silk](https://github.com/NBalciunas/kicad-img2silk): Dither images into PCB graphics using Floyd–Steinberg, Atkinson, Bayer and other algorithms, in B&W or multi-color using board layers as a palette.
 
 
 ##### Presentations
