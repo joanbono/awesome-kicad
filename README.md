@@ -75,6 +75,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [kicanvas](https://github.com/theacodes/kicanvas): KiCanvas is an interactive, browser-based viewer for KiCAD schematics and boards
 + [KiCadStepUp](https://github.com/easyw/kicadStepUpMod/): KiCad StepUp is a FreeCAD Workbench to help in mechanical collaboration between KiCad EDA and FreeCAD.
 + [kicad-happy](https://github.com/aklofas/kicad-happy): AI-powered design review for KiCad — schematic analysis, PCB layout review, component sourcing, BOM management, and manufacturing prep via Claude Code skills.
++ [RFsim](https://github.com/NBalciunas/kicad-rfsim): KiCad 10 plugin for simulating S-parameters, E/H fields and far field of an RF structure directly in the PCB editor with the openEMS FDTD solver.
 
 
 ##### Converters
