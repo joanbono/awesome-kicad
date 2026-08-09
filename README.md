@@ -46,6 +46,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [PcbDraw](https://github.com/yaqwsx/PcbDraw): Convert your KiCAD boards into nice looking 2D drawings suitable for pinout diagrams
 + [svg2mod](https://github.com/mtl/svg2mod): Convert Inkscape SVG drawings to KiCad footprint modules
 + [KiBuzzard](https://github.com/gregdavill/KiBuzzard): Create labels in various fonts, and with inverted backgrounds
++ [Kobee Studio](https://github.com/mrcpuddington/kobeestudio): Modern PCB graphics toolkit for KiCad with customizable labels, icons, component overlays, QR codes, barcodes, and custom SVG assets.
 + [Stretch](https://github.com/JarrettR/Stretch): Allow your PCBs to stretch!
 + [Laser Stencil Plugin](https://github.com/ma-ha/kicad-laser-stencil-plugin): KiCAD Pcbnew plugin to generat laser cutter G-Code files for solder paste stencils
 + [Stimulu KiCad Plugins](https://github.com/stimulu/stimulu-kicad-plugins): Collection of KiCad plugins to reproduce or use Stimulu board files.
