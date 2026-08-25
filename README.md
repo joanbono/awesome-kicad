@@ -78,6 +78,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [kicad-happy](https://github.com/aklofas/kicad-happy): AI-powered design review for KiCad — schematic analysis, PCB layout review, component sourcing, BOM management, and manufacturing prep via Claude Code skills.
 + [RFsim](https://github.com/NBalciunas/kicad-rfsim): KiCad 10 plugin for simulating S-parameters, E/H fields and far field of an RF structure directly in the PCB editor with the openEMS FDTD solver.
 + [akcli](https://github.com/tipoLi5890/akcli): AI-native schematic design CLI for KiCad — author and edit `.kicad_sch` from JSON op-lists behind a net-diff safety gate, run ERC / design-review / BOM checks, simulate on ngspice, and source JLCPCB parts. Zero dependencies (pure-stdlib Python).
++ [BoardRepo](https://github.com/flintt-dev/boardrepo-plugin): Hosted project library and read-only review tools for KiCad schematics, BOMs, source files, DRC/ERC results, and fabrication constraints through MCP.
 
 
 ##### Converters
