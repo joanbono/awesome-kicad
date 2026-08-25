@@ -1,0 +1,101 @@
+name: PCM repository
+
+on:
+  push:
+    branches: [main]
+  # Keeps the published hashes in sync when a listed project ships a new release.
+  schedule:
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pcm-repository
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Compute next minor version
+        id: version
+        run: |
+          latest=$(git tag -l 'v[0-9]*.[0-9]*.[0-9]*' | sort -V | tail -n1)
+          if [ -z "$latest" ]; then
+            next="v0.1.0"
+          else
+            version=${latest#v}
+            major=${version%%.*}
+            rest=${version#*.}
+            minor=${rest%%.*}
+            next="v${major}.$((minor + 1)).0"
+          fi
+          echo "Previous: ${latest:-none} -> next: $next"
+          echo "tag=$next" >> "$GITHUB_OUTPUT"
+
+      - name: Build PCM repository
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PCM_BASE_URL: https://github.com/${{ github.repository }}/releases/latest/download
+        run: python3 scripts/build_pcm_repository.py --out dist
+
+      - name: Report
+        run: cat dist/report.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Decide whether to release
+        id: decide
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Every commit to main gets a release. Scheduled and manual runs only
+          # publish when the package set actually changed, so the tag history
+          # does not fill up with identical rebuilds.
+          if [ "${{ github.event_name }}" = "push" ]; then
+            echo "release=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          if ! gh release download --pattern packages.json --dir previous 2>/dev/null; then
+            echo "No previous release to compare against."
+            echo "release=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          if cmp -s previous/packages.json dist/packages.json; then
+            echo "Package set unchanged, skipping release."
+            echo "release=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "Package set changed."
+            echo "release=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Publish release
+        if: steps.decide.outputs.release == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ steps.version.outputs.tag }}
+        run: |
+          {
+            echo "Add this URL in KiCad under **Plugin and Content Manager -> Manage -> +**:"
+            echo
+            echo '```'
+            echo "https://github.com/${{ github.repository }}/releases/latest/download/repository.json"
+            echo '```'
+            echo
+            cat dist/report.md
+          } > notes.md
+          gh release create "$TAG" \
+            dist/repository.json \
+            dist/packages.json \
+            dist/resources.zip \
+            --target "$GITHUB_SHA" \
+            --title "$TAG" \
+            --notes-file notes.md

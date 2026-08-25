@@ -2,6 +2,16 @@
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
+### Install from KiCad
+
+Every project on this list that ships an installable add-on is published as a single KiCad repository. Add it under **Plugin and Content Manager → Manage → +**:
+
+```
+https://github.com/joanbono/awesome-kicad/releases/latest/download/repository.json
+```
+
+The repository is rebuilt automatically and only contains add-ons that install *inside* KiCad. Tools that run outside KiCad — CLI utilities, browser apps, FreeCAD workbenches, tutorials — are listed below but cannot be installed this way. See [`scripts/build_pcm_repository.py`](scripts/build_pcm_repository.py) for how it is generated.
+
 ### Contributing
 
 Please take a quick gander at the [contribution guidelines](https://github.com/joanbono/awesome-kicad/blob/main/CONTRIBUTING.md) first. Thanks to all [contributors](https://github.com/joanbono/awesome-kicad/graphs/contributors); you rock!
