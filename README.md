@@ -128,3 +128,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 
 #### Verilog / VHDL Tools
 - [KiCadVerilog](https://github.com/galacticstudios/KiCadVerilog): Generate Verilog code from a KiCad netlist.
+
+#### Project Collections
++ [Awesome KiCad Projects](https://github.com/way2pramil/awesome-kicad-projects): Curated list of open source hardware projects whose PCBs are designed in KiCad.
