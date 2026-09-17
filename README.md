@@ -125,6 +125,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 
 #### 3rd-Party Component Integration
 - [Kandle](https://github.com/HarveyBates/kicad-component-handler): CLI to automatically import 3rd-party components (symbols, footprints and 3D-models) into KiCad.
+- [ICBOMS](https://icboms.com): Electronic component search engine, datasheet specifications, and turnkey BOM line-matching platform for KiCad designs.
 
 
 #### Verilog / VHDL Tools
