@@ -135,4 +135,3 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 
 #### Project Collections
 + [Awesome KiCad Projects](https://github.com/way2pramil/awesome-kicad-projects): Curated list of open source hardware projects whose PCBs are designed in KiCad.
-
