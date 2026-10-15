@@ -92,6 +92,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [BoardRepo](https://github.com/flintt-dev/boardrepo-plugin): Hosted project library and read-only review tools for KiCad schematics, BOMs, source files, DRC/ERC results, and fabrication constraints through MCP.
 + [Loft Gerber Viewer](https://lofttools.com/tools/open-tools/gerber-viewer/): Browser viewer for Gerber, drill, IPC-2581 and ODB++ outputs. Can diff two board revisions and show the board in 3D.
 + [Loft Compare PDF](https://lofttools.com/tools/pdf-tools/compare-pdf/): Diff two schematic PDF exports. Moved labels show up as moves instead of a delete plus an add.
++ [KiCAD-Prism](https://github.com/krishna-swaroop/KiCAD-Prism): Self-hosted web platform for reviewing KiCad projects from Git. Browse schematics, PCBs, 3D boards and BOMs in the browser, compare commits, discuss changes, and govern component libraries.
 
 
 ##### Converters
