@@ -72,6 +72,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [Rectangulator](https://github.com/msolomentsev/rectangulator): A simple plug-in that automatically turns zones into perfect rectangles.
 + [Img2Silk](https://github.com/NBalciunas/kicad-img2silk): Dither images into PCB graphics using Floyd–Steinberg, Atkinson, Bayer and other algorithms, in B&W or multi-color using board layers as a palette.
 + [RFgen](https://github.com/NBalciunas/kicad-rfgen): KiCad plugin for quickly generating customizable RF footprints and antennas.
++ [Koppar](https://koppar.ai): Describe a circuit in plain English and get a KiCad schematic, a placed and routed board, a priced BOM and Gerbers; also routes your own .kicad_pcb. Web studio, MCP server, CLI and REST API.
 
 
 ##### Presentations
@@ -107,6 +108,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 
 ##### Other
 + [kicad-wakatime](https://github.com/hackclub/kicad-wakatime): WakaTime plugin for KiCAD 8.99
++ [autorouter-bench](https://github.com/Koppar-AI/autorouter-bench): Open benchmark of six autorouters, FreeRouting among them, on eight open-hardware KiCad boards, scored by kicad-cli ratsnest and DRC.
 
 
 #### Symbols
