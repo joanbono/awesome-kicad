@@ -66,7 +66,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [KiBot](https://github.com/INTI-CMNB/KiBot): KiCad automation utility.
 + [KiCad RF Tools](https://github.com/easyw/RF-tools-KiCAD): Footprints, wizards and round tracks, mask expander, via fencing
 + [Import-LIB-KiCad-Plugin](https://github.com/Steffen-W/Import-LIB-KiCad-Plugin): Import KiCad component libraries imported from Ultralibrarian and SnapEDA zipfiles.
-+ [typeCAD](https://github.com/typecad/typecad): Programmatically create hardware designs with TypeScript. Create/reuse/import version-controlled packages between projects. 
++ [typeCAD](https://github.com/typecad/pcb): Programmatically create hardware designs with TypeScript. Create/reuse/import version-controlled packages between projects. 
 + [SKiDL](https://github.com/devbisme/skidl): A module that extends Python with the ability to design electronic circuits.
 + [Circuitron](https://github.com/Shaurya-Sethi/circuitron): Agentic PCB Design Accelerator — Generate, plan, and layout circuits from natural language prompts.
 + [Rectangulator](https://github.com/msolomentsev/rectangulator): A simple plug-in that automatically turns zones into perfect rectangles.
