@@ -129,6 +129,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 #### Tutorials
 + [Keyboard PCB guide](https://github.com/ruiqimao/keyboard-pcb-guide): Guide on how to design keyboard PCBs with KiCad
 + [Hawk](https://github.com/MalphasWats/hawk): Tutorial for making an ARM dev board in KiCAD
++ [KiCad BOM and placement export exercises](https://pcbapartner.com/tools/kicad-export-compatibility/): Reproducible KiCad 10.0.6 BOM and position-file exercises with original teaching sources, native exports and recorded results.
 
 
 #### 3rd-Party Component Integration
