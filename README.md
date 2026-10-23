@@ -96,6 +96,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [KiCAD-Prism](https://github.com/krishna-swaroop/KiCAD-Prism): Self-hosted web platform for reviewing KiCad projects from Git. Browse schematics, PCBs, 3D boards and BOMs in the browser, compare commits, discuss changes, and govern component libraries.
 + [ZiroEDA](https://github.com/ZiroEDA/ziro-designer): KiCad 10 ported to the browser (TypeScript, GPL-3.0). Open, edit and share real schematic and PCB projects with nothing to install; any public GitHub KiCad repo opens at `designer.ziroeda.com/gh/<owner>/<repo>`.
 + [kicad-irdrop](https://github.com/firedanceio/kicad-irdrop): DC voltage-drop (IR-drop) analysis of a power rail on the real copper: pours, tracks, pads and via barrels, measured from the regulator's sense point. Reports the worst and median drop at the load pins, vias over their IPC-2221 rating and current-density maps per layer. Runs with KiCad's Python.
++ [kisi](https://github.com/riehlies/kisi): Quick signal and power integrity checks for KiCad boards in the browser or CLI: trace impedance, TDR, crosstalk, channels, IR drop, PDN impedance and temperature. Runs locally, no installation.
 
 
 ##### Converters
