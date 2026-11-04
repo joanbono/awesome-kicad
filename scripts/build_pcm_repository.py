@@ -45,6 +45,11 @@ MAX_ASSET_BYTES = 64 * 1024 * 1024
 
 VALID_TYPES = {"plugin", "library", "colortheme"}
 
+# Patterns from the PCM v1 schema. KiCad rejects the whole repository when a
+# single package breaks one of them, so upstream metadata is checked here.
+IDENTIFIER_RE = re.compile(r"^[a-zA-Z][-a-zA-Z0-9._]{0,98}[a-zA-Z0-9]$")
+TAG_RE = re.compile(r"^[a-z][-a-z0-9]{0,48}[a-z0-9]$")
+
 PACKAGE_SCHEMA = "https://go.kicad.org/pcm/schemas/v1"
 REPOSITORY_SCHEMA = "https://go.kicad.org/pcm/schemas/v1#/definitions/Repository"
 
@@ -283,6 +288,26 @@ def collect_from_releases(
     return packages, icons
 
 
+def sanitize_package(package: dict, slug: str, log: list[str]) -> dict | None:
+    """Drop or fix fields that would make KiCad reject the whole repository."""
+    identifier = package.get("identifier")
+    if not isinstance(identifier, str) or not IDENTIFIER_RE.match(identifier):
+        log.append(f"{slug}: invalid identifier {identifier!r}, package skipped")
+        return None
+
+    if "tags" in package:
+        tags = package["tags"] if isinstance(package["tags"], list) else [package["tags"]]
+        valid = [t for t in tags if isinstance(t, str) and TAG_RE.match(t)]
+        dropped = [t for t in tags if t not in valid]
+        if dropped:
+            log.append(f"{slug}: {identifier} dropped invalid tag(s) {dropped!r}")
+        if valid:
+            package["tags"] = valid
+        else:
+            package.pop("tags")
+    return package
+
+
 def write_resources_zip(path: str, icons: dict[str, bytes]) -> None:
     with zipfile.ZipFile(path, "w", zipfile.ZIP_DEFLATED) as archive:
         for identifier in sorted(icons):
@@ -350,6 +375,9 @@ def main() -> int:
 
         accepted: list[str] = []
         for package in found:
+            package = sanitize_package(package, slug, notes)
+            if package is None:
+                continue
             identifier = package["identifier"]
             if identifier in seen_identifiers:
                 notes.append(
