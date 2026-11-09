@@ -55,6 +55,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [Svg2Shenzhen](https://github.com/badgeek/svg2shenzhen): (Discontinued) Inkscape extension for exporting drawings into a KiCad PCB.
 + [Gingerbread](https://github.com/wntrblm/Gingerbread): A tool for converting vector artwork to KiCAD PCB files that lives in your browser.
 + [PcbDraw](https://github.com/yaqwsx/PcbDraw): Convert your KiCAD boards into nice looking 2D drawings suitable for pinout diagrams
++ [silk reel](https://github.com/hridaya423/silkreel): Turns a `.kicad_pcb` into a short film of the board, built from its traces, parts and silkscreen. Runs in the browser or from the CLI.
 + [svg2mod](https://github.com/mtl/svg2mod): Convert Inkscape SVG drawings to KiCad footprint modules
 + [KiBuzzard](https://github.com/gregdavill/KiBuzzard): Create labels in various fonts, and with inverted backgrounds
 + [Kobee Studio](https://github.com/mrcpuddington/kobeestudio): Modern PCB graphics toolkit for KiCad with customizable labels, icons, component overlays, QR codes, barcodes, and custom SVG assets.
