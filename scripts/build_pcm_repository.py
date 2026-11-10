@@ -49,6 +49,9 @@ VALID_TYPES = {"plugin", "library", "colortheme"}
 # single package breaks one of them, so upstream metadata is checked here.
 IDENTIFIER_RE = re.compile(r"^[a-zA-Z][-a-zA-Z0-9._]{0,98}[a-zA-Z0-9]$")
 TAG_RE = re.compile(r"^[a-z][-a-z0-9]{0,48}[a-z0-9]$")
+VERSION_RE = re.compile(r"^\d{1,4}(\.\d{1,4}(\.\d{1,6})?)?$")
+KICAD_VERSION_RE = re.compile(r"^\d{1,2}(\.\d{1,2}(\.\d{1,2})?)?$")
+VALID_STATUSES = {"stable", "testing", "development", "deprecated"}
 
 PACKAGE_SCHEMA = "https://go.kicad.org/pcm/schemas/v1"
 REPOSITORY_SCHEMA = "https://go.kicad.org/pcm/schemas/v1#/definitions/Repository"
@@ -305,7 +308,52 @@ def sanitize_package(package: dict, slug: str, log: list[str]) -> dict | None:
             package["tags"] = valid
         else:
             package.pop("tags")
+
+    versions = []
+    for version in package.get("versions", []):
+        if not isinstance(version, dict):
+            continue
+        version = sanitize_version(version, f"{slug}: {identifier}", log)
+        if version is not None:
+            versions.append(version)
+    if not versions:
+        log.append(f"{slug}: {identifier} has no valid version entry, package skipped")
+        return None
+    package["versions"] = versions
     return package
+
+
+def sanitize_version(version: dict, label: str, log: list[str]) -> dict | None:
+    """Normalise KiCad version bounds such as ">=8.0" and drop broken entries."""
+    number = str(version.get("version", ""))
+    if not VERSION_RE.match(number):
+        log.append(f"{label} dropped version {number!r} (invalid version string)")
+        return None
+    if not version.get("kicad_version"):
+        log.append(f"{label} dropped version {number} (missing kicad_version)")
+        return None
+
+    for key in ("kicad_version", "kicad_version_max"):
+        if key not in version:
+            continue
+        raw = str(version[key])
+        # Authors sometimes write a constraint instead of a bare version.
+        value = re.sub(r"^\s*[<>=~^v]*\s*", "", raw).strip()
+        if KICAD_VERSION_RE.match(value):
+            if value != raw:
+                log.append(f"{label} {number}: {key} {raw!r} normalised to {value!r}")
+            version[key] = value
+        elif key == "kicad_version":
+            log.append(f"{label} dropped version {number} (invalid kicad_version {raw!r})")
+            return None
+        else:
+            log.append(f"{label} {number}: dropped invalid kicad_version_max {raw!r}")
+            version.pop(key)
+
+    if version.get("status") not in VALID_STATUSES:
+        log.append(f"{label} {number}: status {version.get('status')!r} replaced with 'stable'")
+        version["status"] = "stable"
+    return version
 
 
 def write_resources_zip(path: str, icons: dict[str, bytes]) -> None:
