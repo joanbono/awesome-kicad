@@ -76,6 +76,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [RFgen](https://github.com/NBalciunas/kicad-rfgen): KiCad plugin for quickly generating customizable RF footprints and antennas.
 + [Koppar](https://koppar.ai): Describe a circuit in plain English and get a KiCad schematic, a placed and routed board, a priced BOM and Gerbers; also routes your own .kicad_pcb. Web studio, MCP server, CLI and REST API.
 + [CircuitAgent](https://github.com/mo9652962-ai/circuit-agent): AI-driven hardware synthesis DSL and deterministic netlist compiler. Constrains LLMs to validated circuit blocks, emitting native KiCad 8/9/10 schematics (.kicad_sch), Specctra DSN, and live LCSC BOMs.
++ [calligraphy-kicad-plugin](https://github.com/calligraphysystems/calligraphy-kicad-plugin): KiCad 8/9/10 Action Plugin and MCP server (`vibe-hardware-mcp`) for PCB trace impedance calculation, local DFM auditing, and multi-layer trace routing with curvilinear G1 arcs and teardrops.
 
 
 ##### Presentations
@@ -114,6 +115,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 ##### Other
 + [kicad-wakatime](https://github.com/hackclub/kicad-wakatime): WakaTime plugin for KiCAD 8.99
 + [autorouter-bench](https://github.com/Koppar-AI/autorouter-bench): Open benchmark of six autorouters, FreeRouting among them, on eight open-hardware KiCad boards, scored by kicad-cli ratsnest and DRC.
++ [open-pcb-routing-benchmark](https://github.com/calligraphysystems/open-pcb-routing-benchmark): Open-source KiCad & Specctra DSN PCB routing benchmark suite scored by `kicad-cli pcb drc --severity-all` (`0` unconnected items, `0` copper DRC violations).
 
 
 #### Symbols
