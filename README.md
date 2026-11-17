@@ -134,6 +134,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 #### Tutorials
 + [Keyboard PCB guide](https://github.com/ruiqimao/keyboard-pcb-guide): Guide on how to design keyboard PCBs with KiCad
 + [Hawk](https://github.com/MalphasWats/hawk): Tutorial for making an ARM dev board in KiCAD
++ [Gerber layer checks teaching pack](https://github.com/pcbapartner/gerber-layer-checks-teaching-pack): Three KiCad 10 Gerber exports of one small board (original, missing outline, bottom-copper file renamed against its X2 FileFunction) for practising Gerber review. Includes the KiCad source, expected results and reproduction scripts. MIT licensed.
 
 
 #### 3rd-Party Component Integration
