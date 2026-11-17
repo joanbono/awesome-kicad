@@ -47,6 +47,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [Copper Thief Plugin](https://github.com/mrussell42/copper_thief): [Copper Thieving](https://electronics.stackexchange.com/questions/85633/what-is-copper-thieving-and-why-use-it) Plugin.
 + [BOM2Md](https://github.com/AlexSartori/kicad-bom2md): Plugin for KiCAD to generate a Bill of Materials formatted as a Markdown table.
 + [Salitronic Gerber Analyzer](https://salitronic.com/gerber_analyzer): Free in-browser tool to view and check the Gerbers KiCad exports (also reads ODB++ and IPC-2581), with DRC, layer diff, pick-and-place, and thermal, EMI and impedance analysis.
++ [Wave Fixture AI](https://github.com/mo9652962-ai/wave-fixture-ai): Automated wave soldering pallet and selective solder fixture CAM engine with 3D clearance preview, 73 DRC manufacturing rules, and direct CNC G-code toolpaths.
 
 
 ##### PCB Design
@@ -54,6 +55,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [Svg2Shenzhen](https://github.com/badgeek/svg2shenzhen): (Discontinued) Inkscape extension for exporting drawings into a KiCad PCB.
 + [Gingerbread](https://github.com/wntrblm/Gingerbread): A tool for converting vector artwork to KiCAD PCB files that lives in your browser.
 + [PcbDraw](https://github.com/yaqwsx/PcbDraw): Convert your KiCAD boards into nice looking 2D drawings suitable for pinout diagrams
++ [silk reel](https://github.com/hridaya423/silkreel): Turns a `.kicad_pcb` into a short film of the board, built from its traces, parts and silkscreen. Runs in the browser or from the CLI.
 + [svg2mod](https://github.com/mtl/svg2mod): Convert Inkscape SVG drawings to KiCad footprint modules
 + [KiBuzzard](https://github.com/gregdavill/KiBuzzard): Create labels in various fonts, and with inverted backgrounds
 + [Kobee Studio](https://github.com/mrcpuddington/kobeestudio): Modern PCB graphics toolkit for KiCad with customizable labels, icons, component overlays, QR codes, barcodes, and custom SVG assets.
@@ -66,12 +68,15 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [KiBot](https://github.com/INTI-CMNB/KiBot): KiCad automation utility.
 + [KiCad RF Tools](https://github.com/easyw/RF-tools-KiCAD): Footprints, wizards and round tracks, mask expander, via fencing
 + [Import-LIB-KiCad-Plugin](https://github.com/Steffen-W/Import-LIB-KiCad-Plugin): Import KiCad component libraries imported from Ultralibrarian and SnapEDA zipfiles.
-+ [typeCAD](https://github.com/typecad/typecad): Programmatically create hardware designs with TypeScript. Create/reuse/import version-controlled packages between projects. 
++ [typeCAD](https://github.com/typecad/pcb): Programmatically create hardware designs with TypeScript. Create/reuse/import version-controlled packages between projects. 
 + [SKiDL](https://github.com/devbisme/skidl): A module that extends Python with the ability to design electronic circuits.
 + [Circuitron](https://github.com/Shaurya-Sethi/circuitron): Agentic PCB Design Accelerator — Generate, plan, and layout circuits from natural language prompts.
 + [Rectangulator](https://github.com/msolomentsev/rectangulator): A simple plug-in that automatically turns zones into perfect rectangles.
 + [Img2Silk](https://github.com/NBalciunas/kicad-img2silk): Dither images into PCB graphics using Floyd–Steinberg, Atkinson, Bayer and other algorithms, in B&W or multi-color using board layers as a palette.
 + [RFgen](https://github.com/NBalciunas/kicad-rfgen): KiCad plugin for quickly generating customizable RF footprints and antennas.
++ [Koppar](https://koppar.ai): Describe a circuit in plain English and get a KiCad schematic, a placed and routed board, a priced BOM and Gerbers; also routes your own .kicad_pcb. Web studio, MCP server, CLI and REST API.
++ [CircuitAgent](https://github.com/mo9652962-ai/circuit-agent): AI-driven hardware synthesis DSL and deterministic netlist compiler. Constrains LLMs to validated circuit blocks, emitting native KiCad 8/9/10 schematics (.kicad_sch), Specctra DSN, and live LCSC BOMs.
++ [calligraphy-kicad-plugin](https://github.com/calligraphysystems/calligraphy-kicad-plugin): KiCad 8/9/10 Action Plugin and MCP server (`vibe-hardware-mcp`) for PCB trace impedance calculation, local DFM auditing, and multi-layer trace routing with curvilinear G1 arcs and teardrops.
 
 
 ##### Presentations
@@ -92,6 +97,10 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [BoardRepo](https://github.com/flintt-dev/boardrepo-plugin): Hosted project library and read-only review tools for KiCad schematics, BOMs, source files, DRC/ERC results, and fabrication constraints through MCP.
 + [Loft Gerber Viewer](https://lofttools.com/tools/open-tools/gerber-viewer/): Browser viewer for Gerber, drill, IPC-2581 and ODB++ outputs. Can diff two board revisions and show the board in 3D.
 + [Loft Compare PDF](https://lofttools.com/tools/pdf-tools/compare-pdf/): Diff two schematic PDF exports. Moved labels show up as moves instead of a delete plus an add.
++ [KiCAD-Prism](https://github.com/krishna-swaroop/KiCAD-Prism): Self-hosted web platform for reviewing KiCad projects from Git. Browse schematics, PCBs, 3D boards and BOMs in the browser, compare commits, discuss changes, and govern component libraries.
++ [ZiroEDA](https://github.com/ZiroEDA/ziro-designer): KiCad 10 ported to the browser (TypeScript, GPL-3.0). Open, edit and share real schematic and PCB projects with nothing to install; any public GitHub KiCad repo opens at `designer.ziroeda.com/gh/<owner>/<repo>`.
++ [kicad-irdrop](https://github.com/firedanceio/kicad-irdrop): DC voltage-drop (IR-drop) analysis of a power rail on the real copper: pours, tracks, pads and via barrels, measured from the regulator's sense point. Reports the worst and median drop at the load pins, vias over their IPC-2221 rating and current-density maps per layer. Runs with KiCad's Python.
++ [kisi](https://github.com/riehlies/kisi): Quick signal and power integrity checks for KiCad boards in the browser or CLI: trace impedance, TDR, crosstalk, channels, IR drop, PDN impedance and temperature. Runs locally, no installation.
 
 
 ##### Converters
@@ -105,6 +114,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 
 ##### Other
 + [kicad-wakatime](https://github.com/hackclub/kicad-wakatime): WakaTime plugin for KiCAD 8.99
++ [autorouter-bench](https://github.com/Koppar-AI/autorouter-bench): Open benchmark of six autorouters, FreeRouting among them, on eight open-hardware KiCad boards, scored by kicad-cli ratsnest and DRC.
++ [open-pcb-routing-benchmark](https://github.com/calligraphysystems/open-pcb-routing-benchmark): Open-source KiCad & Specctra DSN PCB routing benchmark suite scored by `kicad-cli pcb drc --severity-all` (`0` unconnected items, `0` copper DRC violations).
 
 
 #### Symbols
@@ -124,7 +135,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [Keyboard PCB guide](https://github.com/ruiqimao/keyboard-pcb-guide): Guide on how to design keyboard PCBs with KiCad
 + [Hawk](https://github.com/MalphasWats/hawk): Tutorial for making an ARM dev board in KiCAD
 + [KiCad BOM and placement export exercises](https://pcbapartner.com/tools/kicad-export-compatibility/): Reproducible KiCad 10.0.6 BOM and position-file exercises with original teaching sources, native exports and recorded results.
-
++ [Gerber layer checks teaching pack](https://github.com/pcbapartner/gerber-layer-checks-teaching-pack): Three KiCad 10 Gerber exports of one small board (original, missing outline, bottom-copper file renamed against its X2 FileFunction) for practising Gerber review. Includes the KiCad source, expected results and reproduction scripts. MIT licensed.
++ [KiCad export compatibility teaching pack](https://github.com/pcbapartner/kicad-export-compatibility-teaching-pack): Small KiCad 10.0.6 project with unedited BOM and placement exports (mm/inch, ASCII/CSV), independent expected values and recorded import results, for checking how assemblers read native KiCad exports. MIT licensed.
 
 #### 3rd-Party Component Integration
 - [Kandle](https://github.com/HarveyBates/kicad-component-handler): CLI to automatically import 3rd-party components (symbols, footprints and 3D-models) into KiCad.
