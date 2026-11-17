@@ -135,7 +135,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [Keyboard PCB guide](https://github.com/ruiqimao/keyboard-pcb-guide): Guide on how to design keyboard PCBs with KiCad
 + [Hawk](https://github.com/MalphasWats/hawk): Tutorial for making an ARM dev board in KiCAD
 + [Gerber layer checks teaching pack](https://github.com/pcbapartner/gerber-layer-checks-teaching-pack): Three KiCad 10 Gerber exports of one small board (original, missing outline, bottom-copper file renamed against its X2 FileFunction) for practising Gerber review. Includes the KiCad source, expected results and reproduction scripts. MIT licensed.
-
++ [KiCad export compatibility teaching pack](https://github.com/pcbapartner/kicad-export-compatibility-teaching-pack): Small KiCad 10.0.6 project with unedited BOM and placement exports (mm/inch, ASCII/CSV), independent expected values and recorded import results, for checking how assemblers read native KiCad exports. MIT licensed.
 
 #### 3rd-Party Component Integration
 - [Kandle](https://github.com/HarveyBates/kicad-component-handler): CLI to automatically import 3rd-party components (symbols, footprints and 3D-models) into KiCad.
