@@ -134,6 +134,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 #### Tutorials
 + [Keyboard PCB guide](https://github.com/ruiqimao/keyboard-pcb-guide): Guide on how to design keyboard PCBs with KiCad
 + [Hawk](https://github.com/MalphasWats/hawk): Tutorial for making an ARM dev board in KiCAD
++ [KiCad BOM and placement export exercises](https://pcbapartner.com/tools/kicad-export-compatibility/): Reproducible KiCad 10.0.6 BOM and position-file exercises with original teaching sources, native exports and recorded results.
 + [Gerber layer checks teaching pack](https://github.com/pcbapartner/gerber-layer-checks-teaching-pack): Three KiCad 10 Gerber exports of one small board (original, missing outline, bottom-copper file renamed against its X2 FileFunction) for practising Gerber review. Includes the KiCad source, expected results and reproduction scripts. MIT licensed.
 + [KiCad export compatibility teaching pack](https://github.com/pcbapartner/kicad-export-compatibility-teaching-pack): Small KiCad 10.0.6 project with unedited BOM and placement exports (mm/inch, ASCII/CSV), independent expected values and recorded import results, for checking how assemblers read native KiCad exports. MIT licensed.
 
