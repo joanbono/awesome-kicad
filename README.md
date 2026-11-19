@@ -77,6 +77,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [Koppar](https://koppar.ai): Describe a circuit in plain English and get a KiCad schematic, a placed and routed board, a priced BOM and Gerbers; also routes your own .kicad_pcb. Web studio, MCP server, CLI and REST API.
 + [CircuitAgent](https://github.com/mo9652962-ai/circuit-agent): AI-driven hardware synthesis DSL and deterministic netlist compiler. Constrains LLMs to validated circuit blocks, emitting native KiCad 8/9/10 schematics (.kicad_sch), Specctra DSN, and live LCSC BOMs.
 + [calligraphy-kicad-plugin](https://github.com/calligraphysystems/calligraphy-kicad-plugin): KiCad 8/9/10 Action Plugin and MCP server (`vibe-hardware-mcp`) for PCB trace impedance calculation, local DFM auditing, and multi-layer trace routing with curvilinear G1 arcs and teardrops.
++ [kicad-splitplane](https://github.com/atuzlak/kicad-splitplane): Splits an inner power layer into exactly one continuous zone per supply net (e.g. +5V, +3V3, +1V8), computed from the nets' vias and through-hole pads, and writes the zones into the board. Reports trapped vias with a suggested new position, islands and thin necks; optionally follows the board's clearance rules and keepout areas. KiCad 9/10 plugin (in the PCM), CLI, Python library and MCP server.
 
 
 ##### Presentations
