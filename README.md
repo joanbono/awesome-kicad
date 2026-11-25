@@ -49,7 +49,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [Salitronic Gerber Analyzer](https://salitronic.com/gerber_analyzer): Free in-browser tool to view and check the Gerbers KiCad exports (also reads ODB++ and IPC-2581), with DRC, layer diff, pick-and-place, and thermal, EMI and impedance analysis.
 + [Wave Fixture AI](https://github.com/mo9652962-ai/wave-fixture-ai): Automated wave soldering pallet and selective solder fixture CAM engine with 3D clearance preview, 73 DRC manufacturing rules, and direct CNC G-code toolpaths.
 + [PCB TraceMill](https://github.com/aazriel/pcbtracemill): Mill KiCad boards at home on a hobby CNC router: reads the Gerber and drill files KiCad exports and writes G-code for Mach3, GRBL and LinuxCNC (isolation, drilling, cutout with tabs, 3D simulation, auto-levelling). Free and open source (MIT).
-
++ [PCBA Partner Fabrication Toolkit](https://github.com/pcbapartner/pcba-fabrication-toolkit): Exports a Gerber/drill ZIP, grouped BOM and placement CSV from the saved project, with a pre-flight report on missing fields, a missing board outline and BOM/placement differences. Runs locally, vendor-neutral.
 
 ##### PCB Design
 + [NCCM](https://github.com/Mage-Control-Systems-Ltd/NCCM): Net Class Clearance Matrix (NCCM) to generate custom rules for clearances between net classes through a matrix GUI.
