@@ -80,6 +80,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/j
 + [calligraphy-kicad-plugin](https://github.com/calligraphysystems/calligraphy-kicad-plugin): KiCad 8/9/10 Action Plugin and MCP server (`vibe-hardware-mcp`) for PCB trace impedance calculation, local DFM auditing, and multi-layer trace routing with curvilinear G1 arcs and teardrops.
 + [kicad-splitplane](https://github.com/atuzlak/kicad-splitplane): Splits an inner power layer into exactly one continuous zone per supply net (e.g. +5V, +3V3, +1V8), computed from the nets' vias and through-hole pads, and writes the zones into the board. Reports trapped vias with a suggested new position, islands and thin necks; optionally follows the board's clearance rules and keepout areas. KiCad 9/10 plugin (in the PCM), CLI, Python library and MCP server.
 + [Cherry Blossom](https://github.com/cherryblossomhq/pcb-editor): Open-source (AGPL-3.0) schematic and PCB editor that runs in the browser. Imports KiCad projects, boards and schematics, and exports a KiCad project with its 3D models, plus Gerbers, Altium and STEP. Autorouter, copper pours, DRC and ERC; in the hosted app, Claude, ChatGPT or Cursor can design boards in it over MCP.
++ [KiCad AI Router](https://github.com/kaushikray2/kicad-ai-router): KiCad 10 plugin that plans routing strategy with an LLM and routes/finishes boards with the TraceMaker engine — via patterns, escape routing, copper pours and cleanup. GPL-3.0.
 
 
 ##### Presentations
